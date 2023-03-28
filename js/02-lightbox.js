@@ -13,7 +13,7 @@ const marupGallery = galleryItems.map(({ preview, original, description }) => {
 </li>`;
 }).join('');
 
-itemUl.insertAdjacentHTML('beforeend', marupGallery)
+ulEl.insertAdjacentHTML('beforeend', marupGallery)
 
 
 const lightbox = new SimpleLightbox('.gallery a', { 
